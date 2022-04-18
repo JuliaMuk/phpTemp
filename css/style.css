@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background: lavender;
+}
+.header, .main, .footer {
+    width: 1040px;
+    margin: 0 auto;
+}
+.main {
+    flex-grow: 1;
+}
+.catalog {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr); 
+   grid-gap: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border:solid 1px;
+    padding: 10px;
+}
+.card__img {
+    width: 80%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+}
+.product__img {
+    width: 50%;
+}
+.form-num {
+    width: 60px;
+}
+
+.form-buy {
+    margin-top: 15px;
+}
