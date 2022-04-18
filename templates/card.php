@@ -7,7 +7,10 @@
     <form id="form-buy" class="form-buy" action="addBasket.php" method="POST">
         <label for="count">Количество</label>
         <input class="form-num" type="number" name="count" id="count" value="1">
+        <input type="hidden" name="id" id="id" value ="<?= $item['id_product'] ?>">
         <input type="submit" value="Купить">
     </form>
-
+<?php 
+echo $_SERVER['HTTP_HOST'];
+?>
 </div>
