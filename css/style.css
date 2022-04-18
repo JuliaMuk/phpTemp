@@ -17,6 +17,13 @@ body {
 }
 .main {
     flex-grow: 1;
+    display: flex;
+}
+.filter {
+    width: 200px;
+}
+.filter__list {
+    list-style: none;
 }
 .catalog {
    display: grid;

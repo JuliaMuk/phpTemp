@@ -2,7 +2,7 @@
     <ul class="filter__list">
         <?php
             foreach($categories as $c){
-                echo "<li>$c</li>";
+                echo "<li>$c[c_name]</li>";
             }
         ?>
     </ul>
